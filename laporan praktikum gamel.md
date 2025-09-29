@@ -29,7 +29,7 @@ int main(){
  return 0;
 }
 ```
-penjelasan singkat guided 1
+program sederhana yang meminta pengguna untuk memasukkan sebuah angka, kemudian program akan menampilkan kembali angka yang telah dimasukkan tersebut.
 
 ### 2. 
 
@@ -51,7 +51,7 @@ int main() {
     return 0;
 }
 ```
-penjelasan singkat guided 2
+Program C++ ini adalah kalkulator aritmatika dasar
 
 ### 3.
 
@@ -100,7 +100,7 @@ int main(){
     return 0;
 }
 ```
-penjelasan singkat guided 3
+Program C++ ini berfungsi sebagai alat perbandingan angka dan kalkulator sederhana yang tindakannya dibagi menjadi tiga bagian utama
 
 ### 4.
 
@@ -135,7 +135,7 @@ using namespace std;
     
  }
 ```
-penjelasan singkat guided 3
+program ini mendemonstrasikan tiga jenis perulangan (looping) dasar dalam C++
 
 ### 5.
 
@@ -169,7 +169,7 @@ int main(){
     
 }
 ```
-penjelasan singkat guided 3
+program ini adalah contoh dasar untuk mengelola data menggunakan struct dan array of structs di C++
 
 ## Unguided 
 
@@ -197,7 +197,7 @@ int main() {
 ##### Output 
 ![Tampilan Output](https://raw.githubusercontent.com/gamel12/Struktur-datagamel/main/coso1/Output1.png)
 
-penjelasan unguided 1 
+Program C++ ini adalah kalkulator sederhana yang dapat menghitung angka desimal.
 
 ### 2. (isi dengan soal unguided 2)
 
@@ -240,7 +240,7 @@ int main() {
 ##### Output 
 ![Tampilan Output 2](https://raw.githubusercontent.com/gamel12/Struktur-datagamel/main/coso1/Output2.png)
 
-penjelasan unguided 2
+program C++ ini berfungsi sebagai konverter angka menjadi teks dalam Bahasa Indonesia, khusus untuk rentang angka dari 0 hingga 100.
 
 ### 3. (isi dengan soal unguided 3)
 
@@ -283,7 +283,7 @@ contoh :
 ##### Output 2
 ![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
-penjelasan unguided 3
+Program C++ ini berfungsi untuk mencetak pola piramida angka terbalik yang simetris.
 
 ## Kesimpulan
 ...
