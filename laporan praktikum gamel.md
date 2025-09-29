@@ -173,7 +173,7 @@ program ini adalah contoh dasar untuk mengelola data menggunakan struct dan arra
 
 ## Unguided 
 
-### 1. (isi dengan soal unguided 1)
+### 1. 
 
 ```C++
 #include <iostream>
@@ -199,7 +199,7 @@ int main() {
 
 Program C++ ini adalah kalkulator sederhana yang dapat menghitung angka desimal.
 
-### 2. (isi dengan soal unguided 2)
+### 2. 
 
 ```C++
 #include <iostream>
@@ -242,7 +242,7 @@ int main() {
 
 program C++ ini berfungsi sebagai konverter angka menjadi teks dalam Bahasa Indonesia, khusus untuk rentang angka dari 0 hingga 100.
 
-### 3. (isi dengan soal unguided 3)
+### 3. 
 
 ```C++
 #include <iostream>
@@ -281,7 +281,11 @@ int main() {
 Program C++ ini berfungsi untuk mencetak pola piramida angka terbalik yang simetris.
 
 ## Kesimpulan
-...
+Praktikum Modul 1 ini memberikan pemahaman mendasar mengenai struktur dan sintaksis dasar bahasa pemrograman C++ dengan menggunakan Codeblocks IDE. Melalui Latihan Guided, praktikan telah berhasil mengimplementasikan konsep-konsep inti seperti deklarasi variabel, operasi input-output (cin dan cout), penggunaan operator aritmatika, serta struktur kontrol program mencakup percabangan (if-else, switch-case) dan perulangan (for, while, do-while). Selain itu, praktikan juga telah mempraktikkan penggunaan tipe data terstruktur seperti struct dan array untuk pengelolaan data sederhana.
+
+Pada Latihan Unguided, konsep-konsep dasar tersebut diterapkan untuk menyelesaikan studi kasus yang lebih spesifik, seperti pembuatan kalkulator yang menangani tipe data float, program konversi angka ke teks menggunakan fungsi dan array, serta pembuatan pola kompleks dengan perulangan bersarang (nested loop). Hal ini menunjukkan bahwa penguasaan elemen-elemen fundamental C++ merupakan kunci untuk membangun logika dan algoritma dalam pemecahan masalah. Penggunaan Codeblocks IDE terbukti sangat membantu dalam mempercepat proses kompilasi dan debugging, sehingga praktikan dapat lebih fokus pada logika pemrograman.
+
+Secara keseluruhan, praktikum ini berhasil menunjukkan penguasaan konsep-konsep dasar C++ yang akan menjadi fondasi esensial untuk mempelajari materi yang lebih lanjut, termasuk konsep pemrograman berorientasi objek.
 
 ## Referensi
 [1]Budi Raharjo, 2014, Pemrograman C++ Mudah dan Cepat Menjadi Master C++, menggunakan Dev-C++. Penerbit Informatika Bandung.
