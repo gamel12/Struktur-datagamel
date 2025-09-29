@@ -274,14 +274,9 @@ int main() {
 ```
 ### Output Unguided 3 :
 
-##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+##### Output
 
-contoh :
-![Screenshot Output Unguided 3_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided3-1.png)
-
-##### Output 2
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Tampilan Output 3](https://raw.githubusercontent.com/gamel12/Struktur-datagamel/main/coso1/Output3.png)
 
 Program C++ ini berfungsi untuk mencetak pola piramida angka terbalik yang simetris.
 
