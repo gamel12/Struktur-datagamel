@@ -337,7 +337,7 @@ Program ini merupakan kalkulator matriks 3x3 yang menggunakan konsep fungsi dan 
 ### Output Unguided 1 :
 
 ##### Output 
-![Keluaran1](https://raw.githubusercontent.com/hanif-12-01/STRUKTUR_DATA_MHANIFALFAIZ/master/WEEK%202/Keluaran1.png)
+![Keluaran1](https://github.com/gamel12/Struktur-datagamel/blob/main/week2/ug1.png)
 
 Program ini menunjukkan implementasi operasi matriks menggunakan fungsi modular, dimana setiap operasi (penjumlahan, pengurangan, perkalian) dipisahkan dalam fungsi terpisah untuk meningkatkan readability dan reusability kode. 
 
@@ -456,6 +456,7 @@ Diakses dari: https://translate.google.com/translate?u=https%3A%2F%2Fgithub-page
 
 4. Laporan Praktikum Algoritma Pemrograman (6) – Fungsi & Prosedur. (2025).
 Diakses dari: https://id.scribd.com/document/556296944/Laporan-Praktikum-Algoritma-Pemrograman-6-Fungsi-Prosedur-docx
+
 
 
 
