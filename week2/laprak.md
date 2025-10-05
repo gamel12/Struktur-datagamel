@@ -412,7 +412,7 @@ Program ini mendemonstrasikan penggunaan pointer untuk manipulasi data dan perhi
 ### Output Unguided 2 :
 
 ##### Output 
-![Keluaran2](https://raw.githubusercontent.com/hanif-12-01/STRUKTUR_DATA_MHANIFALFAIZ/master/WEEK%202/Keluaran2.png)
+![Keluaran2](https://github.com/gamel12/Struktur-datagamel/blob/main/week2/ug2.png)
 
 Program ini mendemonstrasikan konsep pointer dalam C++ untuk perhitungan luas dan keliling persegi panjang, dimana nilai dapat dimodifikasi melalui pointer dan mempengaruhi variabel asli tanpa menggunakan fungsi terpisah.
 
@@ -456,6 +456,7 @@ Diakses dari: https://translate.google.com/translate?u=https%3A%2F%2Fgithub-page
 
 4. Laporan Praktikum Algoritma Pemrograman (6) – Fungsi & Prosedur. (2025).
 Diakses dari: https://id.scribd.com/document/556296944/Laporan-Praktikum-Algoritma-Pemrograman-6-Fungsi-Prosedur-docx
+
 
 
 
