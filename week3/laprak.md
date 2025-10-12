@@ -229,7 +229,7 @@ int main() {
 ```
 ### Output Unguided 1 & 2 :
 
-![Screenshot Output Unguided 1](https://github.com/hanif-12-01/STRUKTUR_DATA_MHANIFALFAIZ/blob/master/WEEK%203/Output1%20.jpg)
+![Screenshot Output Unguided 1](https://github.com/gamel12/Struktur-datagamel/blob/main/week3/OP1.png)
 
 #### Penjelasan:
 
@@ -346,7 +346,9 @@ int main() {
 ```
 ### Output Unguided 3 :
 
-![Screenshot Output Unguided 2](https://github.com/hanif-12-01/STRUKTUR_DATA_MHANIFALFAIZ/blob/master/WEEK%203/Output2.jpg)
+![Screenshot Output Unguided 3 Part 1](https://github.com/gamel12/Struktur-datagamel/blob/main/week3/OP2.png)
+
+![Screenshot Output Unguided 3 Part 2](https://github.com/gamel12/Struktur-datagamel/blob/main/week3/OP2%20b.png)
 
 
 #### Penjelasan:
