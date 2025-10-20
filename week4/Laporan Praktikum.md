@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 4 - Singly Linked List (Bagian Keempat)</h1>
+# <h1 align="center">Laporan Praktikum Modul 4 - Singly Linked List (Bagian Pertama)</h1>
 <p align="center">Muhammad Gamel Al Ghifari - 103112400028</p>
 
 ## Dasar Teori
@@ -539,15 +539,15 @@ int main() {
 
 ### Output Unguided 1:
 
-![Screenshot Output Unguided 1](link_gambar_output_unguided1.png)
+![Screenshot Output Unguided 1](https://github.com/gamel12/Struktur-datagamel/blob/main/week4/output%20ug1.jpg)
 
-**Atau jika ingin text format:**
+**Text format:**
 ```
 Input: 5
        9 12 8 0 2
 Output:
 2 0 8 12 9
-execution time : 0.0003832 s
+execution time : 0.0007206 s
 ```
 
 #### Penjelasan Program Unguided 1 (Class-Based):
@@ -744,9 +744,9 @@ int main() {
 
 ### Output Unguided 2:
 
-![Screenshot Output Unguided 2](link_gambar_output_unguided2.png)
+![Screenshot Output Unguided 2](https://github.com/gamel12/Struktur-datagamel/blob/main/week4/output%20ug2.jpg)
 
-**Atau jika ingin text format:**
+**Text format:**
 ```
 2 0 8 12 9
 0 8 12 9
@@ -877,4 +877,5 @@ Halaman: https://jurnal.unimal.ac.id/jiko/article/view/2134
 
 [3] Raharjo, B., Heryanto, A., & Rosdiana, E. (2019). Pemrograman C++ dengan Implementasi Data Struktur. Informatika Bandung. Jurnal Algoritma, 16(2), 118-126.
 Halaman: http://jurnal.unikom.ac.id/jurnal/algoritma
+
 
