@@ -808,8 +808,8 @@ int main() {
 - `printInfo` menampilkan semua node.
 
 **Template output (letakkan screenshot program di path yang ditunjuk):**
-![Output Unguided 1](images/unguided1_output.png)
-[Link foto (lokal)](images/unguided1_output.png)
+![Output Unguided 1](https://raw.githubusercontent.com/gamel12/Struktur-datagamel/main/week6/op1.png)
+[Link foto (GitHub)](https://github.com/gamel12/Struktur-datagamel/blob/main/week6/op1.png)
 
 ---
 
@@ -950,8 +950,8 @@ int main() {
 - `findElm` di sini menerima `infotype` (dengan `nopol` diisi) dan mencari node berdasarkan `x.nopol`.
 - Fungsi lain mengelola list dan menampilkan isi.
 
-![Output Unguided 2](images/unguided2_output.png)
-[Link foto (lokal)](images/unguided2_output.png)
+![Output Unguided 2](https://raw.githubusercontent.com/gamel12/Struktur-datagamel/main/week6/op2.png)
+[Link foto (GitHub)](https://github.com/gamel12/Struktur-datagamel/blob/main/week6/op2.png)
 
 ---
 
@@ -1138,8 +1138,8 @@ int main() {
 - `findElm` menggunakan `infotype` sebagai parameter pencarian.
 
 **Template output (screenshot):**
-![Output Unguided 3](images/unguided3_output.png)
-[Link foto (lokal)](images/unguided3_output.png)
+![Output Unguided 3](https://raw.githubusercontent.com/gamel12/Struktur-datagamel/main/week6/op3.png)
+[Link foto (GitHub)](https://github.com/gamel12/Struktur-datagamel/blob/main/week6/op3.png)
 
 ---
 
