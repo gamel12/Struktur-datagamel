@@ -84,7 +84,7 @@ Karumanchi (2016) menambahkan bahwa "Doubly linked lists are particularly useful
 
 ### 1. Doubly Linked List Makanan dengan Operasi Insert dan Update
 
-Program ini mengimplementasikan Doubly Linked List untuk data makanan dengan operasi insert (insertFirst, insertLast, insertAfter, insertBefore) dan update (updateFirst, updateLast, updateAfter, updateBefore).
+Saya mengimplementasikan Doubly Linked List untuk data makanan dengan operasi insert (insertFirst, insertLast, insertAfter, insertBefore) dan update (updateFirst, updateLast, updateAfter, updateBefore). Saya memilih struktur ini karena kebutuhan untuk melakukan insert/update pada posisi tertentu (mis. sebelum/selesai suatu node) secara efisien dan agar traversal dua arah mudah dilakukan.
 
 #### main.cpp
 ```C++
@@ -310,12 +310,12 @@ void updateBefore(linkedlist List, address nodeNext){
 
 **Penjelasan Program:**
 
-Program ini mengimplementasikan struktur data Doubly Linked List untuk menyimpan data makanan dengan atribut nama, jenis, harga, dan rating. Doubly Linked List memiliki dua pointer pada setiap node (next dan prev) yang memungkinkan traversal dua arah.
+Saya mengimplementasikan Doubly Linked List untuk menyimpan data makanan (nama, jenis, harga, rating). Saya memilih struktur ini karena setiap node memiliki pointer `next` dan `prev` yang memungkinkan traversal dua arah—hal ini penting saat saya perlu melakukan operasi seperti insertBefore atau updateBefore dengan cepat.
 
-**Struktur Data:**
+**Struktur Data (saya):**
 - Struct `makanan` menyimpan data makanan (nama, jenis, harga, rating)
-- Struct `node` berisi data makanan dan dua pointer (next dan prev)
-- Struct `linkedlist` memiliki pointer first (awal) dan last (akhir)
+- Struct `node` berisi data makanan dan dua pointer (`next` dan `prev`)
+- Struct `linkedlist` menyimpan pointer `first` (awal) dan `last` (akhir)
 
 **Operasi Insert:**
 - `insertFirst()`: Menambah node di awal list dengan mengupdate pointer prev dan next
@@ -339,13 +339,13 @@ Program ini mengimplementasikan struktur data Doubly Linked List untuk menyimpan
 
 **Kesimpulan:**
 
-Program ini mendemonstrasikan keunggulan Doubly Linked List yaitu kemampuan untuk melakukan operasi insertBefore dan updateBefore yang tidak efisien pada Single Linked List.
+Saya mendemonstrasikan keunggulan Doubly Linked List, khususnya kemampuan melakukan `insertBefore` dan `updateBefore` secara langsung tanpa traversal tambahan yang diperlukan pada Single Linked List.
 
 ---
 
 ### 2. Doubly Linked List Kendaraan dengan Operasi Search dan Delete
 
-Program ini mengimplementasikan Doubly Linked List untuk data kendaraan dengan operasi insertLast, findElm (searching), dan deleteByNopol (delete).
+Saya mengimplementasikan Doubly Linked List untuk data kendaraan dengan operasi insertLast, findElm (pencarian), dan deleteByNopol (penghapusan). Saya menggunakan `insertLast` karena data kendaraan baru saya anggap muncul di akhir daftar, dan operasi ini efisien (O(1)) karena adanya pointer `last`.
 
 #### main.cpp
 ```C++
@@ -518,7 +518,7 @@ void printInfo(List L) {
 
 **Penjelasan Program:**
 
-Program ini mengimplementasikan Doubly Linked List untuk menyimpan data kendaraan dengan atribut nomor polisi, warna, dan tahun pembuatan. Program mendemonstrasikan operasi pencarian (search) dan penghapusan (delete) pada doubly linked list.
+Saya mengimplementasikan ADT Doubly Linked List untuk menyimpan data kendaraan (nomor polisi, warna, tahun pembuatan). Saya menerapkan fungsi pencarian (`findElm`) untuk menemukan node berdasarkan `nopol` sebelum melakukan penghapusan, karena hal ini memastikan operasi delete aman dan tepat sasaran.
 
 **Struktur Data:**
 - Struct `kendaraan` menyimpan info kendaraan (nopol, warna, thnBuat)
@@ -544,7 +544,7 @@ Program ini mengimplementasikan Doubly Linked List untuk menyimpan data kendaraa
 4. **findElm(List L, string nopol)**:
    - Mencari node dengan nomor polisi tertentu
    - Melakukan traversal dari first hingga akhir
-   - Return address node jika ditemukan, Nil jika tidak
+    - Mengembalikan alamat node jika ditemukan, Nil jika tidak
    - Kompleksitas: O(n)
 
 5. **deleteByNopol(List &L, string nopol)**:
@@ -571,7 +571,7 @@ Program ini mengimplementasikan Doubly Linked List untuk menyimpan data kendaraa
 7. Menghapus elemen pertama dari list
 8. Menampilkan data list akhir
 
-**Keunggulan Doubly Linked List dalam Program Ini:**
+**Keunggulan Doubly Linked List menurut saya:**
 - **Penghapusan Efisien**: Dapat mengakses prev node langsung tanpa traversal dari awal
 - **Fleksibilitas**: Mudah menghapus node di posisi manapun (first, last, middle)
 - **Pointer Bidirectional**: Memudahkan operasi yang membutuhkan akses ke node sebelumnya
@@ -802,12 +802,12 @@ int main() {
 ```
 
 **Penjelasan singkat (Unguided 1):**
-- Program mengimplementasikan ADT Doubly Linked List untuk menyimpan data kendaraan.
-- `findElm(List, string)` mencari node berdasarkan `nopol`.
-- `deleteByNopol` menghapus node yang ditemukan (menangani kasus first/last/middle).
-- `printInfo` menampilkan semua node.
+- Saya mengimplementasikan ADT Doubly Linked List untuk menyimpan data kendaraan.
+- Saya menggunakan `findElm(List, string)` untuk mencari `nopol` karena pendekatan ini sederhana dan langsung; setelah menemukan alamat node, saya dapat melakukan penghapusan dengan aman.
+- `deleteByNopol` saya buat untuk menangani semua kasus (first/last/middle) agar penghapusan robust.
+- `printInfo` menampilkan seluruh isi list untuk verifikasi.
 
-**Template output (letakkan screenshot program di path yang ditunjuk):**
+**Contoh output (screenshot):**
 ![Output Unguided 1](https://raw.githubusercontent.com/gamel12/Struktur-datagamel/main/week6/op1.png)
 [Link foto (GitHub)](https://github.com/gamel12/Struktur-datagamel/blob/main/week6/op1.png)
 
@@ -947,8 +947,8 @@ int main() {
 ```
 
 **Penjelasan singkat (Unguided 2):**
-- `findElm` di sini menerima `infotype` (dengan `nopol` diisi) dan mencari node berdasarkan `x.nopol`.
-- Fungsi lain mengelola list dan menampilkan isi.
+- Pada varian ini saya membuat `findElm` menerima `infotype` karena saya ingin mendemonstrasikan bahwa pencarian bisa berbasis struktur data lengkap (meskipun hanya `nopol` yang digunakan). Hal ini memudahkan ekstensi kriteria pencarian di masa depan.
+- Fungsi lain serupa: alokasi, insertLast, dan `printInfo` untuk menampilkan hasil.
 
 ![Output Unguided 2](https://raw.githubusercontent.com/gamel12/Struktur-datagamel/main/week6/op2.png)
 [Link foto (GitHub)](https://github.com/gamel12/Struktur-datagamel/blob/main/week6/op2.png)
@@ -1134,16 +1134,15 @@ int main() {
 ```
 
 **Penjelasan singkat (Unguided 3):**
-- Sama seperti varian lain, tetapi menambahkan prosedur penghapusan `deleteLast` dan `deleteAfter` yang memudahkan operasi penghapusan tertentu.
-- `findElm` menggunakan `infotype` sebagai parameter pencarian.
+- Di varian ini saya menambahkan `deleteLast` dan `deleteAfter` untuk memberi opsi penghapusan yang lebih langsung: `deleteLast` berguna saat target ada di akhir, sedangkan `deleteAfter` berguna saat saya sudah punya referensi ke node sebelumnya (`Prec`).
+- `findElm` tetap menggunakan `infotype` agar pencarian fleksibel.
 
-**Template output (screenshot):**
+**Contoh output (screenshot):**
 ![Output Unguided 3](https://raw.githubusercontent.com/gamel12/Struktur-datagamel/main/week6/op3.png)
 [Link foto (GitHub)](https://github.com/gamel12/Struktur-datagamel/blob/main/week6/op3.png)
 
 ---
-
-Catatan: saya menempelkan source code persis dari file di folder `unguided1/`, `unguided2/`, dan `unguided3/`. Jika Anda ingin saya juga menambahkan sedikit komentar baris demi baris di setiap file atau menjalankan pengecekan kompilasi lokal, beri tahu — saya bisa lanjutkan.
+ 
 ```
 
 #### Doublylist.cpp
@@ -1231,7 +1230,7 @@ void printInfo(List L) {
 
 **Penjelasan Program:**
 
-Program ini mengimplementasikan Abstract Data Type (ADT) Doubly Linked List untuk mengelola data kendaraan berdasarkan spesifikasi yang diberikan.
+Saya mengimplementasikan ADT Doubly Linked List untuk mengelola data kendaraan sesuai spesifikasi. Saya memisahkan header, implementasi, dan main agar kode modular dan mudah diuji; pendekatan ini juga memudahkan saya menambah prosedur (mis. deleteAfter) tanpa mengubah antarmuka publik.
 
 **Struktur Data:**
 
@@ -1259,7 +1258,7 @@ Program ini mengimplementasikan Abstract Data Type (ADT) Doubly Linked List untu
    - Mengalokasikan memori untuk node baru
    - Mengisi data node dengan parameter x
    - Menginisialisasi next dan prev = Nil
-   - Return address node baru
+    - Mengembalikan alamat node baru
 
 3. **dealokasi(address &P)**:
    - Membebaskan memori yang ditunjuk oleh P
@@ -1273,7 +1272,7 @@ Program ini mengimplementasikan Abstract Data Type (ADT) Doubly Linked List untu
 5. **findElm(List L, string nopol) → address**:
    - Mencari node berdasarkan nomor polisi
    - Traversal dari First hingga akhir
-   - Return address node jika ditemukan, Nil jika tidak
+    - Mengembalikan alamat node jika ditemukan, Nil jika tidak
 
 6. **deleteByNopol(List &L, string nopol)**:
    - Menghapus node berdasarkan nomor polisi
@@ -1560,7 +1559,7 @@ struct ElmList {
 
 **Penjelasan Program:**
 
-Program ini mengimplementasikan dua prosedur penghapusan element pada Doubly Linked List: `deleteLast` dan `deleteAfter` untuk menghapus data kendaraan dengan nomor polisi D003.
+Saya mengimplementasikan dua prosedur penghapusan element: `deleteLast` dan `deleteAfter` untuk menghapus data (mis. D003). Saya memilih kedua prosedur ini karena mereka menutup kasus umum penghapusan—baik saat target berada di akhir maupun saat saya memiliki referensi ke node sebelumnya—sehingga penghapusan bisa dilakukan dalam O(1) setelah lokasi ditemukan.
 
 **Prosedur deleteLast:**
 
@@ -1674,7 +1673,7 @@ Pada Doubly Linked List:
 - Lebih efisien untuk operasi delete
 
 **Penggunaan dalam Program:**
-Program ini mendemonstrasikan:
+Saya mendemonstrasikan:
 - Kombinasi operasi search (findElm) dan delete
 - Penanganan kasus penghapusan di berbagai posisi
 - Manajemen memori dengan dealokasi
