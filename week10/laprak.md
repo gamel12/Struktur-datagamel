@@ -848,7 +848,7 @@ int main() {
 ```
 
 #### Output:
-![Output Unguided 1](http://github.com/gamel12/Struktur-datagamel/blob/main/week10/Op1.png)
+![Output Unguided 1](https://raw.githubusercontent.com/gamel12/Struktur-datagamel/main/week10/Op1.png)
 
 #### Penjelasan:
 Program ini mengimplementasikan ADT Binary Search Tree dengan operasi dasar:
@@ -1001,7 +1001,7 @@ int main() {
 ```
 
 #### Output:
-![Output Unguided 2](https://github.com/gamel12/Struktur-datagamel/blob/main/week10/Op2.png)
+![Output Unguided 2](https://raw.githubusercontent.com/gamel12/Struktur-datagamel/main/week10/Op2.png)
 
 #### Penjelasan:
 Program menambahkan 3 fungsi baru:
@@ -1129,7 +1129,7 @@ int main() {
 ```
 
 #### Output:
-![Output Unguided 3](https://github.com/gamel12/Struktur-datagamel/blob/main/week10/Op3.png)
+![Output Unguided 3](https://raw.githubusercontent.com/gamel12/Struktur-datagamel/main/week10/Op3.png)
 
 #### Penjelasan:
 Program mengimplementasikan traversal:
