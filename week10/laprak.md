@@ -1,4 +1,4 @@
-﻿# <h1 align="center">Laporan Praktikum Modul 10 - Tree</h1>
+# <h1 align="center">Laporan Praktikum Modul 10 - Tree</h1>
 <p align="center">Muhammad Gamel Al Ghifari - 103112400028</p>
 
 ## Dasar Teori
@@ -848,12 +848,7 @@ int main() {
 ```
 
 #### Output:
-> Link GitHub: [Unguided1](https://github.com/NAMA_USER/NAMA_REPO/tree/main/week10/Unguided1)
-
-```
-Hello World!
-1 - 2 - 3 - 4 - 5 - 6 - 7 -
-```
+![Output Unguided 1](http://github.com/gamel12/Struktur-datagamel/blob/main/week10/Op1.png)
 
 #### Penjelasan:
 Program ini mengimplementasikan ADT Binary Search Tree dengan operasi dasar:
@@ -1006,15 +1001,7 @@ int main() {
 ```
 
 #### Output:
-> Link GitHub: [Unguided2](https://github.com/NAMA_USER/NAMA_REPO/tree/main/week10/Unguided2)
-
-```
-Hello World!
-1 - 2 - 3 - 4 - 5 - 6 - 7 - 
-kedalaman : 5
-jumlah node : 7
-total : 28
-```
+![Output Unguided 2](https://github.com/gamel12/Struktur-datagamel/blob/main/week10/Op2.png)
 
 #### Penjelasan:
 Program menambahkan 3 fungsi baru:
@@ -1142,20 +1129,7 @@ int main() {
 ```
 
 #### Output:
-> Link GitHub: [Unguided3](https://github.com/NAMA_USER/NAMA_REPO/tree/main/week10/Unguided3)
-
-```
-=== Binary Search Tree Traversal ===
-
-InOrder Traversal (Left - Root - Right):
-1 - 2 - 3 - 4 - 5 - 6 - 7 - 
-
-PreOrder Traversal (Root - Left - Right):
-6 - 4 - 2 - 1 - 3 - 5 - 7 - 
-
-PostOrder Traversal (Left - Right - Root):
-1 - 3 - 2 - 5 - 4 - 7 - 6 -
-```
+![Output Unguided 3](https://github.com/gamel12/Struktur-datagamel/blob/main/week10/Op3.png)
 
 #### Penjelasan:
 Program mengimplementasikan traversal:
