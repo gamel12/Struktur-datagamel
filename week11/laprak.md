@@ -1,5 +1,5 @@
-﻿# <h1 align="center">Laporan Praktikum Modul 13 - Multi Linked List</h1>
-<p align="center">M. Hanif Al Faiz - 103112400042</p>
+# <h1 align="center">Laporan Praktikum Modul 13 - Multi Linked List</h1>
+<p align="center">Muhammad Gamel Al Ghifari - 103112400028</p>
 
 ## Dasar Teori
 
@@ -862,7 +862,9 @@ int main() {
 ```
 
 #### Output:
-![Output Unguided 1](LINK_GAMBAR_GITHUB_UNGUIDED1)
+![Output Unguided 1](https://github.com/gamel12/Struktur-datagamel/blob/main/week11/Output1.png)
+![Output Unguided 2](https://github.com/gamel12/Struktur-datagamel/blob/main/week11/Output2.png)
+![Output Unguided 3](https://github.com/gamel12/Struktur-datagamel/blob/main/week11/Output3.png)
 
 #### Penjelasan:
 Program ini mengimplementasikan ADT Multi Linked List untuk sistem klasifikasi hewan:
