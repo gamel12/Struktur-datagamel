@@ -454,9 +454,6 @@ int main(){
     return 0;
 }
 ```
-
-```
-
 #### Penjelasan:
 Program ini mengimplementasikan Multi Linked List untuk sistem menu restoran:
 - **createListInduk() & createListAnak()**: Menginisialisasi list dengan first dan last = NULL
