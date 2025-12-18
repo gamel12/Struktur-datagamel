@@ -398,11 +398,13 @@ Program ini mengimplementasikan Graph Berarah (Directed Graph) dengan struktur d
 2. **Nama Field Berbeda**:
    - `nextNode` untuk pointer ke node berikutnya (bukan `Next`)
    - `node` untuk pointer node tujuan edge (bukan `Node`)
+
+---
+
 ## Unguided
 
 ### 1. LATIHAN 14.3 - Implementasi Graph Tidak Berarah dengan DFS dan BFS
 
-Program ini mengimplementasikan Graph tidak berarah lengkap sesuai dengan Gambar 14-14 pada modul, dengan fitur traversal DFS (Depth First Search) dan BFS (Breadth First Search).
 
 #### graph.h
 ```cpp
@@ -703,11 +705,15 @@ int main() {
 ```
 
 #### Output Program:
+![Output UNGUIDED 1 a](https://github.com/gamel12/Struktur-datagamel/blob/main/week12/op%20a.png)
 
+![Output UNGUIDED 1 b](https://github.com/gamel12/Struktur-datagamel/blob/main/week12/op%20b.png)
 
 #### Penjelasan Program:
 
 Program ini merupakan implementasi lengkap dari **Latihan 14.3** pada modul yang mencakup tiga bagian utama:
+
+---
 
 ### **LATIHAN 1: Membuat ADT Graph Tidak Berarah**
 
@@ -858,7 +864,6 @@ Level 3: H
      \ / \ /
       H---H
 ```
-
 Node H adalah **hub** yang terhubung ke D, E, F, dan G.
 
 **Perbandingan DFS vs BFS:**
@@ -1032,6 +1037,5 @@ Dari praktikum **Graph** yang telah dilakukan, dapat disimpulkan:
 [6] S. S. Skiena, *The Algorithm Design Manual*, 2nd ed. London, UK: Springer, 2008.
 
 [7] N. Karumanchi, *Data Structures and Algorithms Made Easy: Data Structures and Algorithmic Puzzles*, 5th ed. Hyderabad, India: CareerMonk Publications, 2017.
-
 
 [8] A. Drozdek, *Data Structures and Algorithms in C++*, 4th ed. Boston, MA: Cengage Learning, 2012.
