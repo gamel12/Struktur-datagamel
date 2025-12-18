@@ -703,53 +703,11 @@ int main() {
 ```
 
 #### Output Program:
-```
-========================================
-  LATIHAN 14.3 - GRAPH TRAVERSAL
-========================================
 
-Latihan 1: Membuat Graph Tidak Berarah
-
-Menambahkan node A, B, C, D, E, F, G, H...
-Menghubungkan node-node sesuai Gambar 14-14...
-
-=== Struktur Graph ===
-Node A terhubung dengan: B, C
-Node B terhubung dengan: A, D, E
-Node C terhubung dengan: A, F, G
-Node D terhubung dengan: B, H
-Node E terhubung dengan: B, H
-Node F terhubung dengan: C, H
-Node G terhubung dengan: C, H
-Node H terhubung dengan: D, E, F, G
-======================
-
-========================================
-  Latihan 2: DEPTH FIRST SEARCH (DFS)
-========================================
-DFS Traversal: A B E H G F C D 
-
-========================================
-  Latihan 3: BREADTH FIRST SEARCH (BFS)
-========================================
-BFS Traversal: A B C D E F G H 
-
---- Testing DFS dari node B ---
-DFS Traversal: B E H G C F A D 
-
---- Testing BFS dari node C ---
-BFS Traversal: C A F G B H D E 
-
-========================================
-  PROGRAM SELESAI
-========================================
-```
 
 #### Penjelasan Program:
 
 Program ini merupakan implementasi lengkap dari **Latihan 14.3** pada modul yang mencakup tiga bagian utama:
-
----
 
 ### **LATIHAN 1: Membuat ADT Graph Tidak Berarah**
 
@@ -1074,5 +1032,6 @@ Dari praktikum **Graph** yang telah dilakukan, dapat disimpulkan:
 [6] S. S. Skiena, *The Algorithm Design Manual*, 2nd ed. London, UK: Springer, 2008.
 
 [7] N. Karumanchi, *Data Structures and Algorithms Made Easy: Data Structures and Algorithmic Puzzles*, 5th ed. Hyderabad, India: CareerMonk Publications, 2017.
+
 
 [8] A. Drozdek, *Data Structures and Algorithms in C++*, 4th ed. Boston, MA: Cengage Learning, 2012.
