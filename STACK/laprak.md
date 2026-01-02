@@ -1,5 +1,5 @@
 # <h1 align="center">Laporan Praktikum Modul 7 - Stack</h1>
-<p align="center">Muhammad Gamel Al Ghifri - 103112400028</p>
+<p align="center">Muhammad Gamel Al Ghifari - 103112400028</p>
 
 ## Dasar Teori
 
@@ -1147,7 +1147,7 @@ int main() {
 #### Output Unguided 1:
 
 ##### Output
-![Output Unguided 1](https://github.com/hanif-12-01/STRUKTUR_DATA_MHANIFALFAIZ/blob/master/WEEK%207/OP%201%2C2%2C3.png)
+![Output Unguided 1](https://github.com/gamel12/Struktur-datagamel/blob/main/STACK/OP%201%2C2%2C3.png)
 
 #### Penjelasan Program Unguided 1:
 
@@ -1308,7 +1308,7 @@ int main() {
 #### Output Unguided 2:
 
 ##### Output
-![Output Unguided 2](https://github.com/hanif-12-01/STRUKTUR_DATA_MHANIFALFAIZ/blob/master/WEEK%207/OP%201%2C2%2C3.png)
+![Output Unguided 2](https://github.com/gamel12/Struktur-datagamel/blob/main/STACK/OP%201%2C2%2C3.png)
 
 #### Penjelasan Program Unguided 2:
 
@@ -1471,7 +1471,7 @@ int main() {
 #### Output Unguided 3:
 
 ##### Output
-![Output Unguided 3](https://github.com/hanif-12-01/STRUKTUR_DATA_MHANIFALFAIZ/blob/master/WEEK%207/OP%201%2C2%2C3.png)
+![Output Unguided 3](https://github.com/gamel12/Struktur-datagamel/blob/main/STACK/OP%201%2C2%2C3.png)
 
 #### Penjelasan Program Unguided 3:
 
